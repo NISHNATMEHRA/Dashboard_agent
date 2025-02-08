@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # Load Google Sheets data
-json_keyfile = os.environ.get('agents_keys')
+json_keyfile = 'agents_keys'
 spreadsheet_url = "https://docs.google.com/spreadsheets/d/1nN11gQ_F38CdjC7Wd0X0tj8ZRY6qgU-cGB9PZ24twc0/edit?gid=0#gid=0"
 sheet_name = "test sheet"
 
